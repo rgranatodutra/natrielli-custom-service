@@ -37,7 +37,7 @@ async function fetchAttendanceRatings(filters: FilterWithPaginationQueryParamete
 
     const rows = await instancesService
         .executeQuery<AttendanceRating[]>(
-            "develop",
+            "natrielli",
             `SELECT * FROM (${SELECT_ATTENDANCE_RATINGS_QUERY}) ar \n${where}`,
             values
         )
