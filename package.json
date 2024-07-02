@@ -1,0 +1,27 @@
+{
+  "name": "natrielli-custom-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/src/server.js",
+    "build": "tsc",
+    "watch": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rgranatodutra/http-errors": "^1.0.7",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "inpulse-crm": "^1.1.12"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21"
+  }
+}
