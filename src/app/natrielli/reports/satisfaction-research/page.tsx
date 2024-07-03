@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import fetchAttendanceRatings from "@/app/lib/attendance-ratings.fetch";
 import styles from "./page.module.css";
-import { AutoComplete, Button, Space, Table, DatePicker, Input, Rate } from "antd";
+import { AutoComplete, Button, Table, DatePicker, Input, Rate } from "antd";
 import formatPhone from "@/app/lib/utils/format-phone.util";
 import { AttendanceRating } from "@/app/lib/types/attendance-rating.type";
 import { ColumnsType } from "antd/es/table";
@@ -62,7 +62,7 @@ const columns: ColumnsType<AttendanceRating> = [
 
 const { RangePicker } = DatePicker;
 
-export default function SatisfactionResearch() {
+export default function SatisfactionResearchReport() {
     const [data, setData] = useState<Array<AttendanceRating>>([]);
     const [filteredData, setFilteredData] = useState<Array<AttendanceRating>>([]);
     const [loading, setLoading] = useState(true);
