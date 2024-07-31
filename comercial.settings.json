@@ -1,0 +1,19 @@
+{
+    "initialMessage": "Informe a região/responsável que deseja para seu atendimento",
+    "invalidMessage": "Por favor, digite uma opção válida. (1 ou 2)",
+    "validMessage": "Ok, estamos transferindo seu atendimento para {name} - {description}", 
+    "maxTries": 3,
+    "onMaxTries": "",
+    "options": {
+        "1": { 
+            "id": 49, 
+            "name": "Tamires", 
+            "description": "RNC / Liberação Comercial (Tamires)"
+        },
+        "2": {
+            "id": 30,
+            "name": "Danieli",
+            "description": "Coordenadora ADM"
+        }
+    }
+}

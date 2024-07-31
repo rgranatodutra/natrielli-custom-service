@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import fetchAttendanceRatings from "@/app/lib/attendance-ratings.fetch";
+import fetchAttendanceRatings from "../../../lib/attendance-ratings.fetch";
 import styles from "./page.module.css";
 import { AutoComplete, Button, Table, DatePicker, Input, Rate } from "antd";
-import formatPhone from "@/app/lib/utils/format-phone.util";
-import { AttendanceRating } from "@/app/lib/types/attendance-rating.type";
+import formatPhone from "../../../lib/utils/format-phone.util";
+import { AttendanceRating } from "../../../lib/types/attendance-rating.type";
 import { ColumnsType } from "antd/es/table";
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";

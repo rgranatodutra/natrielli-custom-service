@@ -3,13 +3,13 @@
 import { useState, useEffect } from "react";
 import styles from "./page.module.css";
 import { AutoComplete, Button, Table, DatePicker, Input, Select } from "antd";
-import formatPhone from "@/app/lib/utils/format-phone.util";
+import formatPhone from "../../../lib/utils/format-phone.util";
 import { ColumnsType } from "antd/es/table";
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
 import type { TooltipItem } from 'chart.js';
-import { ContactResearch } from "@/app/lib/types/contact-research.type";
-import fetchContactResearches from "@/app/lib/contact-researches.fetch";
+import { ContactResearch } from "../../../lib/types/contact-research.type";
+import fetchContactResearches from "../../../lib/contact-researches.fetch";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 

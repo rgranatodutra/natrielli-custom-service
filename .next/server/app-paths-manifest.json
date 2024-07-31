@@ -1,6 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/natrielli/reports/contact-research/page": "app/natrielli/reports/contact-research/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/natrielli/reports/satisfaction-research/page": "app/natrielli/reports/satisfaction-research/page.js"
+  "/api/bots/comercial/route": "app/api/bots/comercial/route.js"
 }
