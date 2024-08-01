@@ -1,3 +1,39 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-a77d43427fd167ed.js",
+      "static/chunks/fd9d1056-bf12fd48b55a9a02.js",
+      "static/chunks/23-7355299314e41d88.js",
+      "static/chunks/main-app-af635f5cd8eea27d.js",
+      "static/chunks/app/_not-found/page-7b60e89054c75b37.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-a77d43427fd167ed.js",
+      "static/chunks/fd9d1056-bf12fd48b55a9a02.js",
+      "static/chunks/23-7355299314e41d88.js",
+      "static/chunks/main-app-af635f5cd8eea27d.js",
+      "static/css/ae35c29fb11214b9.css",
+      "static/chunks/app/layout-bb4984d7c900bf47.js"
+    ],
+    "/natrielli/reports/contact-research/page": [
+      "static/chunks/webpack-a77d43427fd167ed.js",
+      "static/chunks/fd9d1056-bf12fd48b55a9a02.js",
+      "static/chunks/23-7355299314e41d88.js",
+      "static/chunks/main-app-af635f5cd8eea27d.js",
+      "static/css/96f8506fd9f3ced3.css",
+      "static/chunks/ca377847-16a0819de833504a.js",
+      "static/chunks/490-bffaae46668b83cc.js",
+      "static/chunks/app/natrielli/reports/contact-research/page-a0f9a97a4d9f15b4.js"
+    ],
+    "/natrielli/reports/satisfaction-research/page": [
+      "static/chunks/webpack-a77d43427fd167ed.js",
+      "static/chunks/fd9d1056-bf12fd48b55a9a02.js",
+      "static/chunks/23-7355299314e41d88.js",
+      "static/chunks/main-app-af635f5cd8eea27d.js",
+      "static/css/4d78f377981bacfd.css",
+      "static/chunks/ca377847-16a0819de833504a.js",
+      "static/chunks/490-bffaae46668b83cc.js",
+      "static/chunks/app/natrielli/reports/satisfaction-research/page-f89d80c197d950c4.js"
+    ]
+  }
 }
